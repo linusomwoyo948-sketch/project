@@ -1,0 +1,20 @@
+{
+  "name": "rentlink",
+  "version": "1.0.0",
+  "description": "Connects landlords and tenants for paying rent",
+  "main": "src/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "test": "node --no-warnings --test test/*.test.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
