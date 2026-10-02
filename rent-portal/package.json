@@ -1,0 +1,15 @@
+{
+  "name": "rent-portal",
+  "version": "1.0.0",
+  "description": "RentLink: a website that connects landlords and tenants for paying and tracking rent",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
